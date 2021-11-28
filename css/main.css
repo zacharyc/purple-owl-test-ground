@@ -1,0 +1,38 @@
+:root {
+	--main-background: #021627;
+	--text-color:#abb2bf;
+	--accent-color:#c792ea;
+}
+
+* {
+	font-family:"monolisa", monospace;
+}
+
+body {
+	width: 100%;
+	height:100%;
+	background: var(--main-background);
+	color: var(--text-color);
+}
+
+.colorblock {
+	display: flex;
+	flex-direction: row;
+	justify-items: center;
+	/* justify-content: center; */
+}
+
+.colorbox {
+	height:2rem;
+	width:2rem;
+	display:inline-block;
+	margin-right:2rem;
+}
+
+.colorblock p {
+	display: inline-block;
+}
+
+.accent {
+	background: var(--accent-color);
+}
